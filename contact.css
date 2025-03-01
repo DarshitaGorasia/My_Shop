@@ -1,0 +1,69 @@
+/* contact.css */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px); 
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.form-wrapper {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-right: 50px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.radio-options {
+    display: flex;
+    align-items: center;
+}
+
+.radio-options label {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+button[type="submit"] {
+    background-color: #800080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.vector-image {
+    width: 300px; 
+}
+
+.vector-image img {
+    width: 100%;
+    height: 100%;
+}

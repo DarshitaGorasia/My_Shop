@@ -1,0 +1,63 @@
+/* brand.css */
+
+.brands-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Light background */
+}
+
+.brands-container h1 {
+    color: #333; /* Your theme color */
+    margin-bottom: 30px;
+}
+
+.brand-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.brand-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.brand-item img {
+    width: 150px;
+    height: 100px ;
+    /* height: auto; */
+    margin-bottom: 10px;
+}
+
+.brand-item h3 {
+    color: #333;
+    margin: 0;
+}
+
+/* Navigation Styles (if not already in style.css) */
+nav {
+    background-color: #333; /* Your theme color */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}

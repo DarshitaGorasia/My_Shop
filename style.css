@@ -1,0 +1,119 @@
+
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+}
+
+.hero .slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.hero .slide {
+    min-width: 100%;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+}
+
+.logo h2 {
+    color: plum;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.about, .slide p{
+    font-size: 1.5rem;
+}
+
+.about, .contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-card img {
+    max-width: 100%;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+}
